@@ -4,13 +4,13 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
+using System.Web.Mvc;
 
 namespace DatabaseProject.Models
 {
     public class Event
     {
         [Key]
-        [Range(0,8)]
         [Index("Idx_Event_EID_Date", 1)]
         public int EventID { get; set; }
 
@@ -41,7 +41,8 @@ namespace DatabaseProject.Models
         public string State { get; set; }
 
         [Required]
-        [Range(4, 5, ErrorMessage = "Zipcode requires 5 digits.")]
-        public int Zip { get; set; }
+        [RegularExpression(@"^[0-9]{5,5}$", ErrorMessage = "Zip Code must be 5 digits")]
+        public string Zip { get; set; }
+
     }
 }

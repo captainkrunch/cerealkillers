@@ -10,14 +10,12 @@ namespace DatabaseProject.Models
     public class Person_Class
     {
         [Key, ForeignKey("Person"), Column(Order = 1)]
-        [Range(0, 8)]
         public int PersonID { get; set; }
 
         [Key, ForeignKey("Class"), Column(Order = 2)]
-        [Range(0, 8)]
         public int ClassID { get; set; }
 
-        public virtual Person Person { get; set; }
+        public virtual Item Person { get; set; }
 
         public virtual Class Class { get; set; }
     }

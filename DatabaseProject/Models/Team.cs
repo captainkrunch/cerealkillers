@@ -10,7 +10,6 @@ namespace DatabaseProject.Models
     public class Team
     {
         [Key]
-        [Range(0, 8)]
         public int TeamID { get; set; }
 
         [Required]
@@ -18,6 +17,7 @@ namespace DatabaseProject.Models
         public string Name { get; set; }
 
         [StringLength(40)]
+        [EmailAddress]
         public string Email { get; set; }
     }
 }
