@@ -1,0 +1,89 @@
+﻿@model DatabaseProject.Models.Item
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Item Details</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Start Bid")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Start_Bid)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Bid Increment")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Bid_Increment)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Won Bid Amount")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WonBidAmount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Value)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Value)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Buy It Now Price")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BuyItNowPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Pay Time")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PayTime)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Pay Method")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PayMethod)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ItemID }) |
+    @Html.ActionLink("Back to Item List", "Index", "Item")
+</p>
