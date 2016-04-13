@@ -4,13 +4,13 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
+using System.Web.Mvc;
 
 namespace DatabaseProject.Models
 {
     public class Event
     {
         [Key]
-        [Range(0,8)]
         [Index("Idx_Event_EID_Date", 1)]
         public int EventID { get; set; }
 
@@ -18,9 +18,8 @@ namespace DatabaseProject.Models
         [Index("Idx_Event_EID_Date", 2)]
         public DateTime Date { get; set; }
 
-        public string StartTime { get; set; }
-
-        public string EndTime { get; set; }
+        [Required]
+        public DateTime EndTime { get; set; }
 
         [Required]
         [StringLength(30)]
@@ -41,7 +40,8 @@ namespace DatabaseProject.Models
         public string State { get; set; }
 
         [Required]
-        [Range(4, 5, ErrorMessage = "Zipcode requires 5 digits.")]
-        public int Zip { get; set; }
+        [RegularExpression(@"^[0-9]{5,5}$", ErrorMessage = "Zip Code must be 5 digits")]
+        public string Zip { get; set; }
+
     }
 }

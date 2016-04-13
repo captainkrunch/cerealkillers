@@ -10,7 +10,6 @@ namespace DatabaseProject.Models
     public class Person
     {
         [Key]
-        [Range(0,8)]
         public int PersonID { get; set; }
 
         [Required]
@@ -35,13 +34,14 @@ namespace DatabaseProject.Models
         [StringLength(2, MinimumLength = 2)]
         public string State { get; set; }
 
-        [Range(5,5, ErrorMessage = "Zipcode requires 5 digits.")]
-        public int Zip { get; set; }
+        [RegularExpression(@"^[0-9]{5,5}$", ErrorMessage = "Zip Code must be 5 digits")]
+        public string Zip { get; set; }
 
         [StringLength(40)]
+        [EmailAddress]
         public string Email { get; set; }
 
-        [Range(7,10)]
-        public int Phone { get; set; }
+        [RegularExpression(@"^[0-9]{10,10}$", ErrorMessage = "Phone must be 10 digits")]
+        public string Phone { get; set; }
     }
 }

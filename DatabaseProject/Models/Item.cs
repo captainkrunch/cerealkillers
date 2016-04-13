@@ -10,7 +10,6 @@ namespace DatabaseProject.Models
     public class Item
     {
         [Key, Column(Order = 0)]
-        [Range(0,8)]
         [Index("Idx_Item_IID_DID", 1)]
         [Index("Idx_Item_IID_SB_BI", 1)]
         public int ItemID { get; set; }
@@ -20,27 +19,23 @@ namespace DatabaseProject.Models
         public string Name { get; set; }
 
         [Required]
-        [StringLength(100, MinimumLength = 10)]
+        [StringLength(100)]
         public string Description { get; set; }
 
         [Required]
-        [Range(2, 8)]
         [Index("Idx_Item_IID_SB_BI", 2)]
         public decimal Start_Bid { get; set; }
 
         [Required]
-        [Range(2, 5)]
         [Index("Idx_Item_IID_SB_BI", 3)]
         public decimal Bid_Increment { get; set; }
 
-        [Range(2, 8)]
+        [Required]
         public decimal WonBidAmount { get; set; }
 
         [Required]
-        [Range(2, 8)]
         public decimal Value { get; set; }
 
-        [Range(2, 8)]
         public decimal BuyItNowPrice { get; set; }
 
 

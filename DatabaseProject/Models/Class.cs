@@ -9,7 +9,6 @@ namespace DatabaseProject.Models
     public class Class
     {
         [Key]
-        [Range(0,8)]
         public int ClassID { get; set; }
 
         [StringLength(50)]
