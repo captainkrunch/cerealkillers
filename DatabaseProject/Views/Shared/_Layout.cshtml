@@ -17,12 +17,19 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("It Worked Again", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("American Cancer Society", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
+
+ 
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><img src="~/Picture/acslogo.jpg" alt="acslogo" height="50" width="100"></li>
+                    <li><img src="~/Picture/acslogo.png" alt="acslogo" height="50" width="100"></li> &nbsp
+                    <li><button class="btn btn-primary btn-lg" onclick="location.href='@Url.Action("Index", "Person")';return false;">People</button></li> &nbsp
+                    <li><button class="btn btn-primary btn-lg" onclick="location.href='@Url.Action("Index", "Item")';return false;">Items</button></li> &nbsp
+                    <li><button class="btn btn-primary btn-lg" onclick="location.href='@Url.Action("Index", "Team")';return false;">Teams</button></li> &nbsp
+                    <li><button class="btn btn-primary btn-lg" onclick="location.href='@Url.Action("Index", "Event")';return false;">Events</button></li> &nbsp
                 </ul>
+
                 @Html.Partial("_LoginPartial")
             </div>
         </div>
