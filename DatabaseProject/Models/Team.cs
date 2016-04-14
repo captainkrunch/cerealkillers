@@ -20,6 +20,6 @@ namespace DatabaseProject.Models
         [EmailAddress]
         public string Email { get; set; }
 
-        //test Michael
+        //test Michael 2
     }
 }
