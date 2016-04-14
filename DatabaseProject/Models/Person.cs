@@ -42,6 +42,6 @@ namespace DatabaseProject.Models
         public string Email { get; set; }
 
         [RegularExpression(@"^[0-9]{10,10}$", ErrorMessage = "Phone must be 10 digits")]
-        public string Phone { get; set; }
+        public string Phone { get; set; }       
     }
 }
