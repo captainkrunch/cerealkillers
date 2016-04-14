@@ -19,5 +19,7 @@ namespace DatabaseProject.Models
         [StringLength(40)]
         [EmailAddress]
         public string Email { get; set; }
+
+        //test hgfsanhogeriqhjgrehqipghperioqhjgipqerj pijgprqpgojeqgojerq
     }
 }
