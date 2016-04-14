@@ -13,7 +13,5 @@ namespace DatabaseProject.Models
 
         [StringLength(50)]
         public string Description { get; set; }
-
-        ///This is a comment
     }
 }

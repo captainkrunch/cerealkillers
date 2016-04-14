@@ -1,5 +1,7 @@
 namespace DatabaseProject.DataContexts.DatabaseMigrations
 {
+    using Microsoft.AspNet.Identity;
+    using Microsoft.AspNet.Identity.EntityFramework;
     using Models;
     using System;
     using System.Data.Entity;
@@ -15,8 +17,7 @@ namespace DatabaseProject.DataContexts.DatabaseMigrations
         }
 
         protected override void Seed(DatabaseProject.DataContexts.DataDb context)
-        {          
-
+        {
         }
     }
 }

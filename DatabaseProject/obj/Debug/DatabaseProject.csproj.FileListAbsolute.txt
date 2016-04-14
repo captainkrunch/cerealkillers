@@ -1,168 +1,84 @@
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\ApplicationInsights.config
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\roslyn\csc.exe
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\roslyn\Microsoft.CodeAnalysis.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\roslyn\Microsoft.CSharp.Core.targets
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\roslyn\System.Collections.Immutable.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\roslyn\System.Reflection.Metadata.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\roslyn\vbc.exe
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\roslyn\VBCSCompiler.exe
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\roslyn\VBCSCompiler.exe.config
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\DatabaseProject.dll.config
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\DatabaseProject.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\DatabaseProject.pdb
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Antlr3.Runtime.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\EntityFramework.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\EntityFramework.SqlServer.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.AI.Agent.Intercept.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.AI.DependencyCollector.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.AI.PerfCounterCollector.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.AI.Web.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.AI.WindowsServer.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.ApplicationInsights.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.AspNet.Identity.Core.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.AspNet.Identity.Owin.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.Owin.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.Owin.Host.SystemWeb.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.Owin.Security.Cookies.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.Owin.Security.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.Owin.Security.Facebook.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.Owin.Security.Google.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.Owin.Security.OAuth.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.Owin.Security.Twitter.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.Web.Infrastructure.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Newtonsoft.Json.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Owin.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\System.Web.Helpers.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\System.Web.Mvc.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\System.Web.Optimization.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\System.Web.Razor.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\System.Web.WebPages.Deployment.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\System.Web.WebPages.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\System.Web.WebPages.Razor.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\WebGrease.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.AI.DependencyCollector.xml
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.AI.Web.xml
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.AI.WindowsServer.xml
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.ApplicationInsights.xml
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\System.Web.Helpers.xml
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\System.Web.Mvc.xml
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\System.Web.Optimization.xml
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\System.Web.Razor.xml
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\System.Web.WebPages.xml
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\System.Web.WebPages.Deployment.xml
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\System.Web.WebPages.Razor.xml
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Antlr3.Runtime.pdb
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Newtonsoft.Json.xml
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\EntityFramework.xml
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\EntityFramework.SqlServer.xml
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.AspNet.Identity.Core.xml
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.AspNet.Identity.Owin.xml
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.Owin.xml
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.Owin.Host.SystemWeb.xml
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.Owin.Security.xml
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.Owin.Security.Facebook.xml
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.Owin.Security.Cookies.xml
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.Owin.Security.OAuth.xml
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.Owin.Security.Google.xml
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.Owin.Security.Twitter.xml
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\obj\Debug\DatabaseProject.csprojResolveAssemblyReference.cache
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\obj\Debug\DatabaseProject.DataContexts.DatabaseMigrations.InitialCreate.resources
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\obj\Debug\DatabaseProject.csproj.GenerateResource.Cache
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\obj\Debug\DatabaseProject.dll
-H:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\obj\Debug\DatabaseProject.pdb
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\ApplicationInsights.config
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\roslyn\csc.exe
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\roslyn\vbc.exe
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\roslyn\VBCSCompiler.exe
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\DatabaseProject.dll.config
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\DatabaseProject.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\DatabaseProject.pdb
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Antlr3.Runtime.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\EntityFramework.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\EntityFramework.SqlServer.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Microsoft.AI.Agent.Intercept.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Microsoft.AI.DependencyCollector.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Microsoft.AI.PerfCounterCollector.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Microsoft.AI.Web.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Microsoft.AI.WindowsServer.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Microsoft.ApplicationInsights.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Microsoft.AspNet.Identity.Core.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Microsoft.AspNet.Identity.Owin.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Microsoft.Owin.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Microsoft.Owin.Host.SystemWeb.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Microsoft.Owin.Security.Cookies.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Microsoft.Owin.Security.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Microsoft.Owin.Security.Facebook.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Microsoft.Owin.Security.Google.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Microsoft.Owin.Security.OAuth.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Microsoft.Owin.Security.Twitter.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Newtonsoft.Json.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Owin.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\System.Web.Helpers.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\System.Web.Mvc.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\System.Web.Optimization.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\System.Web.Razor.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\System.Web.WebPages.Deployment.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\System.Web.WebPages.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\System.Web.WebPages.Razor.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\WebGrease.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Microsoft.AI.DependencyCollector.xml
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Microsoft.AI.Web.xml
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Microsoft.AI.WindowsServer.xml
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Microsoft.ApplicationInsights.xml
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\System.Web.Helpers.xml
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\System.Web.Mvc.xml
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\System.Web.Optimization.xml
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\System.Web.Razor.xml
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\System.Web.WebPages.xml
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\System.Web.WebPages.Deployment.xml
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\System.Web.WebPages.Razor.xml
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Antlr3.Runtime.pdb
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Newtonsoft.Json.xml
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\EntityFramework.xml
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\EntityFramework.SqlServer.xml
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Microsoft.AspNet.Identity.Core.xml
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Microsoft.AspNet.Identity.Owin.xml
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Microsoft.Owin.xml
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Microsoft.Owin.Host.SystemWeb.xml
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Microsoft.Owin.Security.xml
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Microsoft.Owin.Security.Facebook.xml
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Microsoft.Owin.Security.Cookies.xml
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Microsoft.Owin.Security.OAuth.xml
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Microsoft.Owin.Security.Google.xml
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Microsoft.Owin.Security.Twitter.xml
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\obj\Debug\DatabaseProject.csprojResolveAssemblyReference.cache
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\obj\Debug\DatabaseProject.DataContexts.DatabaseMigrations.InitialCreate.resources
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\obj\Debug\DatabaseProject.csproj.GenerateResource.Cache
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\obj\Debug\DatabaseProject.dll
-C:\Users\Michael\Documents\cerealkillers\DatabaseProject\obj\Debug\DatabaseProject.pdb
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\ApplicationInsights.config
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\roslyn\csc.exe
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\roslyn\System.Collections.Immutable.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\roslyn\System.Reflection.Metadata.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\roslyn\vbc.exe
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\roslyn\VBCSCompiler.exe
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\roslyn\VBCSCompiler.exe.config
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\DatabaseProject.dll.config
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\DatabaseProject.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\DatabaseProject.pdb
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Antlr3.Runtime.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\EntityFramework.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\EntityFramework.SqlServer.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.AI.Agent.Intercept.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.AI.DependencyCollector.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.AI.Web.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.AI.WindowsServer.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.ApplicationInsights.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.AspNet.Identity.Core.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.Owin.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.Owin.Security.Cookies.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.Owin.Security.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.Owin.Security.Facebook.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.Owin.Security.Google.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.Owin.Security.OAuth.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.Owin.Security.Twitter.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.Web.Infrastructure.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Newtonsoft.Json.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Owin.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\System.Web.Helpers.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\System.Web.Mvc.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\System.Web.Optimization.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\System.Web.Razor.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\System.Web.WebPages.Deployment.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\System.Web.WebPages.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\System.Web.WebPages.Razor.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\WebGrease.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.AI.DependencyCollector.xml
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.AI.Web.xml
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.AI.WindowsServer.xml
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.ApplicationInsights.xml
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\System.Web.Helpers.xml
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\System.Web.Mvc.xml
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\System.Web.Optimization.xml
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\System.Web.Razor.xml
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\System.Web.WebPages.xml
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\System.Web.WebPages.Deployment.xml
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\System.Web.WebPages.Razor.xml
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Antlr3.Runtime.pdb
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Newtonsoft.Json.xml
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\EntityFramework.xml
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\EntityFramework.SqlServer.xml
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.AspNet.Identity.Core.xml
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.Owin.xml
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.Owin.Security.xml
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.Owin.Security.Facebook.xml
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.Owin.Security.Cookies.xml
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.Owin.Security.OAuth.xml
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.Owin.Security.Google.xml
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.Owin.Security.Twitter.xml
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\obj\Debug\DatabaseProject.csprojResolveAssemblyReference.cache
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\obj\Debug\DatabaseProject.DataContexts.DatabaseMigrations.InitialCreate.resources
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\obj\Debug\DatabaseProject.csproj.GenerateResource.Cache
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\obj\Debug\DatabaseProject.dll
+E:\CSCI 3020 - Database\DatabaseProject\DatabaseProject\obj\Debug\DatabaseProject.pdb

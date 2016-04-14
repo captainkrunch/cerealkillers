@@ -15,7 +15,7 @@ namespace DatabaseProject.Models
         [Key, ForeignKey("Team"), Column(Order = 2)]
         public int TeamID { get; set; }
 
-        public virtual Item Person { get; set; }
+        public virtual Person Person { get; set; }
 
         public virtual Team Team { get; set; }
     }

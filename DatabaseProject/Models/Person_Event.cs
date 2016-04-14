@@ -19,7 +19,7 @@ namespace DatabaseProject.Models
 
         public int BidderNumber { get; set; }
 
-        public virtual Item Person { get; set; }
+        public virtual Person Person { get; set; }
 
         public virtual Event Event { get; set; }
     }
