@@ -24,10 +24,10 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li><img src="~/Picture/acslogo.png" alt="acslogo" height="50" width="100"></li> &nbsp
-                    <li><button class="btn btn-primary btn-lg" onclick="location.href='@Url.Action("Index", "Person")';return false;">People</button></li> &nbsp
-                    <li><button class="btn btn-primary btn-lg" onclick="location.href='@Url.Action("Index", "Item")';return false;">Items</button></li> &nbsp
-                    <li><button class="btn btn-primary btn-lg" onclick="location.href='@Url.Action("Index", "Team")';return false;">Teams</button></li> &nbsp
-                    <li><button class="btn btn-primary btn-lg" onclick="location.href='@Url.Action("Index", "Event")';return false;">Events</button></li> &nbsp
+                    <li><a href="/Person">People</a></li>
+                    <li><a href="/Item">Items</a></li>
+                    <li><a href="/Team">Teams</a></li>
+                    <li><a href="/Event">Events</a></li>
                 </ul>
 
                 @Html.Partial("_LoginPartial")
