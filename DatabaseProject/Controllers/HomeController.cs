@@ -8,7 +8,18 @@ namespace DatabaseProject.Controllers
 {
     public class HomeController : Controller
     {
+        
         public ActionResult Index()
+        {
+            if (!User.IsInRole("Admin"))
+            {
+                return RedirectToAction("Visitor", "Home");
+            }
+
+            return View();
+        }
+
+        public ActionResult Visitor()
         {
             return View();
         }

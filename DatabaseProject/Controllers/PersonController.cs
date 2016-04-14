@@ -23,8 +23,10 @@ namespace DatabaseProject.Controllers
             return View(ddb.People.ToList());
         }
 
+        
         public ActionResult Create()
         {
+
             return View();
         }
 
