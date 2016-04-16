@@ -8,6 +8,7 @@ using System.Web.Mvc;
 
 namespace DatabaseProject.Controllers
 {
+
     public class EventController : Controller
     {
         private DataDb ddb = new DataDb();

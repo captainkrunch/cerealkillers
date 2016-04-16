@@ -23,7 +23,7 @@ namespace DatabaseProject.Controllers
             return View(ddb.People.ToList());
         }
 
-        [Authorize(Roles = "Admin")]
+        
         public ActionResult Create()
         {
 
