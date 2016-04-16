@@ -208,6 +208,12 @@
     </Compile>
     <Compile Include="DataContexts\DatabaseMigrations\Configuration.cs" />
     <Compile Include="DataContexts\DataDb.cs" />
+    <Compile Include="DataContexts\IdentityDb.cs" />
+    <Compile Include="DataContexts\IdentityMigrations\201604142050170_InitialCreate.cs" />
+    <Compile Include="DataContexts\IdentityMigrations\201604142050170_InitialCreate.Designer.cs">
+      <DependentUpon>201604142050170_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataContexts\IdentityMigrations\Configuration.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -323,6 +329,9 @@
   <ItemGroup>
     <EmbeddedResource Include="DataContexts\DatabaseMigrations\201604030451021_InitialCreate.resx">
       <DependentUpon>201604030451021_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataContexts\IdentityMigrations\201604142050170_InitialCreate.resx">
+      <DependentUpon>201604142050170_InitialCreate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
