@@ -37,5 +37,20 @@ namespace DatabaseProject.Controllers
 
             return View();
         }
+
+        public ActionResult Photos()
+        {
+            return View();
+        }
+
+        public ActionResult UpcomingEvents()
+        {
+            return View();
+        }
+
+        public ActionResult FAQ()
+        {
+            return View();
+        }
     }
 }
