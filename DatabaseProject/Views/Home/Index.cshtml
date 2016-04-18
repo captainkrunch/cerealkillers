@@ -2,12 +2,12 @@
     ViewBag.Title = "Site Home Page";
 }
 
-<h2><b>Online Auction Database Home</b></h2>
+<h2  align="center"><b>Online Auction Database Home</b></h2>
 <br />
 
 @using (Html.BeginForm())
 {
-    <div class="form-horizontal">
+    <div class="form-horizontal" align="center">
          <button class="btn btn-primary" onclick="location.href='@Url.Action("Index", "Person")';return false;">People</button>
 
          <button class="btn btn-primary" onclick="location.href='@Url.Action("Index", "Item")';return false;">Items</button>

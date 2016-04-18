@@ -43,7 +43,7 @@ namespace DatabaseProject.DataContexts.IdentityMigrations
                 var user = new ApplicationUser
                 {
                     Email = "admin@admin.com",
-                    UserName = "Admin"
+                    UserName = "admin@admin.com"
                 };
 
                 userManager.Create(user, "Pass1!");
