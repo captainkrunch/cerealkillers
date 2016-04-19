@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DatabaseProject.DataContexts;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,7 +9,14 @@ namespace DatabaseProject.Controllers
 {
     public class HomeController : Controller
     {
-        
+        private DataDb ddb = new DataDb();
+
+        protected override void Dispose(bool disposing)
+        {
+            ddb.Dispose();
+            base.Dispose(disposing);
+        }
+
         public ActionResult Index()
         {
             if (!User.IsInRole("Admin"))
@@ -39,13 +47,17 @@ namespace DatabaseProject.Controllers
         }
 
         public ActionResult Photos()
+
         {
             return View();
         }
 
         public ActionResult UpcomingEvents()
         {
-            return View();
+            var model = ddb.Events.ToList()
+                .Where(e => ((e.Date - DateTime.Today).TotalDays >= 0 && (e.Date - DateTime.Today).TotalDays <= 7) && e.EndTime > DateTime.Now);
+
+            return View(model);
         }
 
         public ActionResult FAQ()

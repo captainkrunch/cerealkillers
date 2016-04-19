@@ -20,7 +20,6 @@ namespace DatabaseProject.Models
         [EmailAddress]
         public string Email { get; set; }
 
-        //test Zac
-        //Second line
+        public ICollection<Person_Team> Teams;
     }
 }
