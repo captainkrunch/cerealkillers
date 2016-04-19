@@ -12,6 +12,9 @@
 <table class="table">
     <tr>
         <th>
+            @Html.DisplayName("Team ID")
+        </th>
+        <th>
             @Html.DisplayNameFor(model => model.Name)
         </th>
         <th>
@@ -22,6 +25,9 @@
 
 @foreach (var item in Model) {
     <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TeamID)
+        </td>
         <td>
             @Html.DisplayFor(modelItem => item.Name)
         </td>
@@ -36,6 +42,12 @@
     </tr>
 }
 </table>
+<div>
+    @Html.ActionLink("View People on Teams", "Index", "Person_Team")
+    <br />
+    <br />
+</div>
+
 <div>
     @Html.ActionLink("Back to Home Page", "Index","Home")
 </div>

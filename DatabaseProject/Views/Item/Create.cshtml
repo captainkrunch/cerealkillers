@@ -13,6 +13,14 @@
     
     <div class="form-horizontal">
         <hr />
+        <div class="form-group">
+            @Html.Label("Event ID", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.EventID, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.EventID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         <div class="form-group">
             @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
@@ -47,14 +55,6 @@
         </div>
 
         <div class="form-group">
-            @Html.Label("Won Bid Amount", htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.WonBidAmount, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.WonBidAmount, "", new { @class = "text-danger" })
-            </div>
-        </div>
-
-        <div class="form-group">
             @Html.LabelFor(model => model.Value, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
                 @Html.EditorFor(model => model.Value, new { htmlAttributes = new { @class = "form-control" } })
@@ -77,15 +77,6 @@
                 @Html.ValidationMessageFor(model => model.PayTime, "", new { @class = "text-danger" })
             </div>
         </div>
-        <div class="form-group" align="left">
-            @Html.Label("Pay Method", htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.PayMethod, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.PayMethod, "", new { @class = "text-danger" })
-            </div>
-        </div> 
-
-
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
                 <input type="submit" value="Create" class="btn btn-default" />

@@ -1,0 +1,49 @@
+﻿@model IEnumerable<DatabaseProject.Models.Person_Team>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>People on Teams</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("First name")
+        </th>
+        <th>
+            @Html.DisplayName("Last name")
+        </th>
+        <th>
+            @Html.DisplayName("Team name")
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Person.FirstName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Person.Lastname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Team.Name)
+        </td>
+        <td>
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+</table>
+
+<div>
+    @Html.ActionLink("Add a Person to a Team", "Create", "Person_Team")
+    <br />
+    <br />
+</div>
+
+<div>
+    @Html.ActionLink("Back to Teams Page", "Index", "Team")
+</div>

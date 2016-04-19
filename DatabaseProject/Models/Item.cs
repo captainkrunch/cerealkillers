@@ -15,6 +15,10 @@ namespace DatabaseProject.Models
         public int ItemID { get; set; }
 
         [Required]
+        [ForeignKey("Event")]
+        public int EventID { get; set; }
+
+        [Required]
         [StringLength(50)]
         public string Name { get; set; }
 
@@ -62,5 +66,7 @@ namespace DatabaseProject.Models
         [StringLength(20)]
         [Index("Idx_Item_WID_PT_PM", 3)]
         public string PayMethod { get; set; }
+
+        public virtual Event Event { get; set; }
     }
 }
