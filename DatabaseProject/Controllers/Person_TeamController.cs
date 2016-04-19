@@ -41,27 +41,32 @@ namespace DatabaseProject.Controllers
             return View(pTeam);
         }
 
-        public ActionResult Delete(int id = 0)
+        public ActionResult Delete(int p_id = 0, int t_id = 0)
         {
-            Person_Team pTeam = ddb.P_Teams.Find(id);
+            Person_Team pTeam = ddb.P_Teams.Where(p => p.PersonID == p_id && p.TeamID == t_id).FirstOrDefault();
             if (pTeam == null)
             {
                 return HttpNotFound();
             }
+
             return View(pTeam);
         }
 
         [HttpPost]
         [ActionName("Delete")]
-        public ActionResult DeletePTeam(int id = 0)
+        public ActionResult DeletePerson_Team(int p_id = 0, int t_id = 0)
         {
-            Person_Team pTeam = ddb.P_Teams.Find(id);
+            Person_Team pTeam = ddb.P_Teams.Where(p => p.PersonID == p_id && p.TeamID == t_id).FirstOrDefault();
+            if (pTeam == null)
+            {
+                return HttpNotFound();
+            }
 
             if (pTeam != null)
             {
                 ddb.P_Teams.Remove(pTeam);
                 ddb.SaveChanges();
-                return RedirectToAction("Index", "Person_team");
+                return RedirectToAction("Index", "Person");
             }
             return View();
         }

@@ -323,10 +323,10 @@
     <Content Include="Views\Home\Photos.cshtml" />
     <Content Include="Views\Home\UpcomingEventsOld.cshtml" />
     <Content Include="Views\Home\FAQ.cshtml" />
+    <Content Include="Views\Home\UpcomingEvents.cshtml" />
     <Content Include="Views\Person_Team\Index.cshtml" />
     <Content Include="Views\Person_Team\Create.cshtml" />
     <Content Include="Views\Person_Team\Delete.cshtml" />
-    <Content Include="Views\Home\UpcomingEvents.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

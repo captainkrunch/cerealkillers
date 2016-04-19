@@ -4,18 +4,21 @@
     ViewBag.Title = "Index";
 }
 
-<h2>People on Teams</h2>
+<h2>Index</h2>
 
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayName("First name")
+            @Html.DisplayName("First Name")
         </th>
         <th>
-            @Html.DisplayName("Last name")
+            @Html.DisplayName("Last Name")
         </th>
         <th>
-            @Html.DisplayName("Team name")
+            @Html.DisplayNameFor(model => model.Team.Name)
         </th>
         <th></th>
     </tr>
@@ -36,14 +39,5 @@
         </td>
     </tr>
 }
+
 </table>
-
-<div>
-    @Html.ActionLink("Add a Person to a Team", "Create", "Person_Team")
-    <br />
-    <br />
-</div>
-
-<div>
-    @Html.ActionLink("Back to Teams Page", "Index", "Team")
-</div>
